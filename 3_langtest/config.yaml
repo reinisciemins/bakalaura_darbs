@@ -1,0 +1,9 @@
+model_parameters: { temperature: 0, max_tokens: 300, user_prompt: "Atbildi latviešu valodā. Sniedz īsu, precīzu un faktoloģiski korektu atbildi." }
+
+tests:
+  defaults: { min_pass_rate: 0.70 }
+  robustness:
+    strip_punctuation: { min_pass_rate: 0.70 }
+    lowercase: { min_pass_rate: 0.70 }
+    uppercase: { min_pass_rate: 0.70 }
+    add_typo: { min_pass_rate: 0.70 }
