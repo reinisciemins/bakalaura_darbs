@@ -1,1 +1,7 @@
 # bakalaura_darbs
+
+path:
+openai:chat:gpt-5.4-nano
+openrouter:google/gemini-3.1-flash-lite
+openrouter:anthropic/claude-haiku-4.5
+openrouter:deepseek/deepseek-v4-flash
